@@ -16,4 +16,5 @@ Code examples for the Embedded Systems Course
 5. Check to make sure that the cmd_vel topic is being published.
   - `$ rostopic echo /turtle1/cmd_vel` 
 6. The emaxx_driver subscribes to the velocity topic and then publishes a scaled servo message to the Arduino.
+7. The emaxx_driver is based on this publisher/subscriber [tutorial] (http://wiki.ros.org/ROS/Tutorials/WritingPublisherSubscriber%28python%29)
   - `$ rosrun emaxx_driver move_emaxx_teleop.py`

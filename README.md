@@ -17,7 +17,7 @@ Code examples for the Embedded Systems Course
   - `$ rostopic echo /turtle1/cmd_vel` 
 6. The emaxx_driver subscribes to the velocity topic and then publishes a scaled servo message to the Arduino.
 7. Launch the rosserial node to allow your Arduino to connect to the ROS environment.  Your tty port may be different (i.e. ttyACM0).  Check using:
-  - `ls /dev/tty*`
+  - `$ ls /dev/tty*`
   - `$ rosrun rosserial_python serial_node.py /dev/ttyUSB0`
 8. The emaxx_driver is based on this publisher/subscriber [tutorial] (http://wiki.ros.org/ROS/Tutorials/WritingPublisherSubscriber%28python%29)
   - `$ rosrun emaxx_driver move_emaxx_teleop.py`

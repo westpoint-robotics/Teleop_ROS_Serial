@@ -4,7 +4,7 @@ Code examples for the Embedded Systems Course
 ### Traxxas Emaxx vehicle
 1. Configure your Arduino according to these [instructions] (http://wiki.ros.org/rosserial_arduino/Tutorials/Servo%20Controller).
 2. Create a new package or clone the [EE487 repo] (https://github.com/westpoint-robotics/EE487.git).
-  - `$ cd ~/catkin_ws/src`
+  - $ `cd ~/catkin_ws/src`
   - `$ git clone https://github.com/westpoint-robotics/EE487.git`
   - `$ cd..`
   - `$ catkin_make`
